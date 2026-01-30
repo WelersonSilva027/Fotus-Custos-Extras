@@ -5,13 +5,13 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage"; // <--- 1. Importação NOVA
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCNONv2Jlyi6KrK0rxkEgT8WxCaCBKmvSA",
-  authDomain: "fotus-custos-extras.firebaseapp.com",
-  projectId: "fotus-custos-extras",
-  storageBucket: "fotus-custos-extras.firebasestorage.app", // Verifique se isso está correto no seu console
-  messagingSenderId: "554227414301",
-  appId: "1:554227414301:web:3aed9c4bedafa51f77ddf4",
-  measurementId: "G-R7VG2W6S6H"
+  apiKe: "chaveApi",
+  authDomain: "XXXXXXXXXXX",
+  projectId: "XXXXXXXXXXXXX",
+  storageBucket: "XXXXXXXXXX", // Verifique se isso está correto no seu console
+  messagingSenderId: "XXXXXXXXX",
+  appId: "XXXXXXXXX",
+  measurementId: "XXXXXXXXXX"
 };
 
 const app = initializeApp(firebaseConfig);
